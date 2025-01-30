@@ -5,21 +5,21 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install --prefix ./client && npm run build --prefix ./client && npm install --prefix ./admin && npm run build --prefix ./admin",
+    "build": "npm install --prefix ./client && npm run build --prefix ./client && npm install --prefix ./admin && npm run build --prefix ./admin npm install --prefix ./server && npm run build --prefix ./server",
     "postinstall": "npm install",
     "start": "node server.js",
     "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devtushar001/dmototech-2.git"
+    "url": "git+https://github.com/devtushar001/eShop.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/devtushar001/dmototech-2/issues"
+    "url": "https://github.com/devtushar001/eShop/issues"
   },
-  "homepage": "https://github.com/devtushar001/dmototech-2#readme",
+  "homepage": "https://github.com/devtushar001/eShop#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
