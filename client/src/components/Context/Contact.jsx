@@ -8,7 +8,7 @@ const DochakiContextProvider = (props) => {
     const [cartItem, setCartItem] = useState({});
     const [token, setToken] = useState("");
     const [bikeAccessories, setBikeAccessories] = useState([]);
-    const url = 'http://localhost:10011';
+    const url = 'https://eshops.onrender.com';
 
     // Fetch bike accessories list
     const fetchBikeAccessoriesList = async () => {
